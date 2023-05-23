@@ -1,0 +1,5 @@
+In this script, the user can choose to create an agent, upload files, ask questions, or exit the program. 
+The agent is created using the create_agent() method from LangChain. 
+The upload_files() function allows the user to enter file paths and upload them to the agent for training. 
+The ask_question() function prompts the user to enter a question and then retrieves the answer from the agent, based on the content of the uploaded files.
+If no answer is found, a default answer is generated.
